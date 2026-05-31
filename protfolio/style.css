@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  color: white;
+  overflow-x: hidden;
+  background: #020617;
+}
+
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+#bg {
+  position: fixed;
+  z-index: -1;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+}
+.hero-card {
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(0,255,255,0.15);
+}
+
+.profile-container {
+    margin-bottom: 25px;
+}
+
+.profile-image {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid cyan;
+    box-shadow: 0 0 30px cyan;
+    animation: float 4s ease-in-out infinite;
+}
+
+.hero span {
+  color: cyan;
+}
+
+/* Glass UI */
+.glass {
+  margin: 50px 10%;
+  padding: 40px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+/* Skills */
+.bar {
+  height: 10px;
+  background: #333;
+}
+.bar div {
+  height: 100%;
+  background: cyan;
+}
+
+/* Cards */
+.card {
+  margin: 10px 0;
+  padding: 20px;
+  background: rgba(255,255,255,0.1);
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: cyan;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+  transform: scale(1.1);
+}
+
+.resume-btn {
+  background: #38bdf8;
+}
+
+.video-container {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.video-container iframe,
+.video-container video {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+.html {
+    animation: html 2s forwards;
+}
+
+.css {
+    animation: css 2s forwards;
+}
+
+.javascript {
+    animation: javascript 2s forwards;
+}
+
+.react {
+    animation: react 2s forwards;
+}
+
+.sql {
+    animation: sql 2s forwards;
+}
+
+.excel {
+    animation: excel 2s forwards;
+}
+
+.mysql {
+    animation: mysql 2s forwards;
+}
+
+.powerbi {
+    animation: powerbi 2s forwards;
+}
+
+
+.java {
+    animation: java 2s forwards;
+}
+
+.python {
+    animation: python 2s forwards;
+}
+
+.dsa {
+    animation: dsa 2s forwards;
+}
+
+.git {
+    animation: git 2s forwards;
+}
+
+.threejs {
+    animation: threejs 2s forwards;
+}
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.contact-info a {
+    color: cyan;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: white;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 20px;
+    background: cyan;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+
+@keyframes html { to { width: 95%; } }
+@keyframes css { to { width: 90%; } }
+@keyframes javascript { to { width: 85%; } }
+@keyframes react { to { width: 80%; } }
+@keyframes node { to { width: 75%; } }
+@keyframes express { to { width: 75%; } }
+@keyframes mongodb { to { width: 75%; } }
+@keyframes java { to { width: 85%; } }
+@keyframes python { to { width: 80%; } }
+@keyframes dsa { to { width: 85%; } }
+@keyframes git { to { width: 85%; } }
+@keyframes threejs { to { width: 70%; } }
+@keyframes sql {to { width: 85%; } }
+@keyframes excel { to { width: 90%; } }
+@keyframes mysql { to { width: 80%; } }
+@keyframes powerbi { to { width: 70%; } }
